@@ -302,8 +302,7 @@ export default function Reviews() {
   };
 
   return (
-    <div>
-      <div className="max-w-7xl mx-auto sm:my-0">
+      <section className="max-w-7xl mx-auto sm:my-0">
         {/* Header */}
         <div className="mb-8 sm:mb-12 md:mb-16">
           {/* Title Image */}
@@ -380,7 +379,7 @@ export default function Reviews() {
           </button>
 
           {/* Mobile Navigation Arrows */}
-          <div className="flex md:hidden justify-between items-center mt-4 px-4">
+          <div className="flex md:hidden justify-between items-center mt-1 px-4">
             <button
               onClick={handlePrev}
               className="bg-white rounded-full p-2.5 shadow-md hover:shadow-lg transition-all active:scale-95"
@@ -413,7 +412,7 @@ export default function Reviews() {
             />
           ))}
         </div>
-      </div>
-    </div>
+      </section>
+    
   );
 }
