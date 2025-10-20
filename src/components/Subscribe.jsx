@@ -136,7 +136,7 @@ const Subscribe = () => {
   };
 
   return (
-    <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 bg-white">
+    <section className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 bg-white sm:mt-0">
       <div className="max-w-6xl mx-auto">
         <div className="bg-white rounded-lg md:rounded-xl border-2 md:border-3 border-[#D8C4B6] p-6 sm:p-8 md:p-10 lg:p-10 shadow-sm">
           <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6 md:gap-8 lg:gap-28">

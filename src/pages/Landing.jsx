@@ -27,7 +27,7 @@ const Landing = () => {
   };
 
   return (
-    <div className="bg-[#fff] px-2 sm:px-4 md:px-8 lg:px-16 py-2 sm:py-2 md:py-8 lg:py-8">
+    <div className="bg-[#fff] px-2 sm:px-6 md:px-8 lg:px-16 py-2 sm:py-2 md:py-8 lg:py-8">
       <Navbar onItemSelect={handleItemSelect} />
       <div className="pt-20">
         {" "}

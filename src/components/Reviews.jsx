@@ -303,7 +303,7 @@ export default function Reviews() {
 
   return (
     <div>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto sm:my-0">
         {/* Header */}
         <div className="mb-8 sm:mb-12 md:mb-16">
           {/* Title Image */}
