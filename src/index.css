@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+body,
+p,
+div {
+  font-family: "Montserrat", sans-serif;
+}
+
+.modal-backdrop-blur {
+  /* Fallback for older browsers (just transparent black) */
+  background-color: rgba(0, 0, 0, 0.3);
+  
+  /* The key CSS property for blurring the background */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); /* Safari support */
+}
