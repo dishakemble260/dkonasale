@@ -3,9 +3,9 @@ import { message } from "antd";
 import subscribe_title from "../assets/subscribe_title.png";
 import emailjs from "@emailjs/browser";
 
-const SERVICE_ID = "service_i4tbq8t";
-const TEMPLATE_ID = "template_ke0jxp4";
-const PUBLIC_KEY = "8E5C-T-GOHWiwf3aJ";
+const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
 
 const Subscribe = () => {
   const [formData, setFormData] = useState({
